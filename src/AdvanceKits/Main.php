@@ -247,7 +247,7 @@ class Main extends PluginBase implements Listener{
         foreach($kit as $item){
         $i = explode(",",$item);
         $sender->getPlayer()->getInventory()->addItem(Item::get(((int)$i[0]),((int)$i[1]),((int)$i[2])));
-        
+        $this->list = [];
         }
         
    } 
