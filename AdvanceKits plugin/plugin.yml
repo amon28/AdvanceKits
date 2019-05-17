@@ -1,0 +1,9 @@
+name: AdvanceKits
+version: 1.0
+main: AdvanceKits\Main
+api: [3.0.0]
+author: Amon
+
+commands:
+ kits:
+  description: equipment kits
